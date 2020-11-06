@@ -1,0 +1,91 @@
+body {
+  background-image: url("../images/back.jpg");
+  background-color: black;
+  background-position: center;
+}
+h1 {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 450%;
+  text-shadow: 10px 10px 30px white;
+}
+h3 {
+  font-size: 200%;
+  text-shadow: 10px 10px 30px white;
+}
+h3, table{
+  font-family: 'Righteous', cursive;
+}
+h1, h3 {
+  text-align: center;
+}
+.ea{
+  text-shadow: 8px 8px 20px green;
+}
+.ve{
+  text-shadow: 8px 8px 20px orange;
+}
+.sa{
+  text-shadow: 8px 8px 20px yellow;
+}
+.ne{
+  text-shadow: 8px 8px 20px blue;
+}
+table{
+  width: 68%;
+  position: relative;
+  left: 1em;
+  top: 115px;
+  border-collapse: collapse;
+}
+table, td, th, tr {
+  color: white;
+  border: 5px solid grey;
+  text-shadow: 4px 4px 10px white;
+  padding: 10px
+}
+th {
+  font-size: 115%;
+}
+img {
+  margin-top: 15%;
+  border: 3px solid grey;
+  border-radius: 10px;
+  width: 100%;
+}
+
+a:hover img{
+  -webkit-box-shadow: 6px 6px 6px rgba(0,0,0,.3);
+  box-shadow: 6px 6px 6px rgba(0,0,0,.3);
+}
+a:hover #earth, a:focus #earth{
+  -webkit-box-transform: scale(2.5) rotate(-30deg);
+  transform: scale(2.5) rotate(-30deg);
+}
+a:hover #neptune, a:focus #neptune{
+  -webkit-box-transform: scale(2.5) rotate(-30deg);
+  transform: scale(2.5) rotate(-30deg);
+}
+a:hover #saturn, a:focus #saturn{
+  -webkit-box-transform: scale(2.5) rotate(30deg);
+  transform: scale(2.5) rotate(30deg);
+}
+a:hover #venus, a:focus #venus{
+  -webkit-box-transform: scale(1.5) rotate(30deg);
+  transform: scale(2.5) rotate(30deg);
+}
+
+#wrapper {
+  width: 100%
+}
+.left {
+  width: 15%;
+  float: left;
+}
+.center {
+  position: relative;
+  width: 100%;
+}
+.right {
+  width: 15%;
+  float: right;
+}
